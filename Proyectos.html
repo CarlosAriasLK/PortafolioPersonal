@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="css/Proyectos.css">
+    <link rel="icon" href="img/portafolio.png">
+    <title>Portafolio Personal</title>
+</head>
+<body>
+
+    <header>
+        <div class="desarrollador">
+            <div class="desarrollador-imagen">
+                <img src="img/perfil.png" alt="">
+            </div>
+            <div class="desarrollador-identidad">
+                <div>Carlos Arias</div>
+                <div>Desarrollador Web</div>
+            </div>
+        </div>
+    
+        <nav>
+            <ul class="navegacion">
+                <li><a href="PaginaInicio.html">Sobre mi</a></li>
+                <li><a href="Habilidades.html">Habilidades</a></li>
+                <li><a href="Proyectos.html">Proyectos</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="PaginaInicio.html">Sobre mi</a></li>
+                <li><a href="Habilidades.html">Habilidades</a></li>
+                <li><a href="Proyectos.html">Proyectos</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="titulo">
+            <h1>Proyectos Personales</h1>
+        </div>
+
+        <div class="contenedor">
+            <div class="contenedor-card">
+                <h1>Ahorcado JavaScript</h1>
+                <div class="contenedor-imagen">
+                    <img  src="img/Ahorcado.jpeg" alt="" >
+                </div>
+                <p>Este proyecto fue fundamental para mi aprendizaje y pasión por JavaScript. Crear un juego de ahorcado me permitió adentrarme en el mundo de la programación y consolidar mis habilidades en este lenguaje.</p>
+                <button id="abrirModal1">Expandir</button>
+            </div>
+            <div class="contenedor-card">
+                <h1>Pacman Scratch</h1>
+                <div class="contenedor-imagen">
+                    <img src="img/pacman.jpeg" alt="" >
+                </div>
+                <p>Crear un juego de Pac-Man en Scratch me ofreció una oportunidad única para desarrollar y afinar mis habilidades de lógica y diseño de juegos en un entorno visualmente intuitivo.</p>
+                <button id="abrirModal2">Expandir</button>
+            </div>
+            <div class="contenedor-card">
+                <h1>GifApp React</h1>
+                <div class="contenedor-imagen">
+                    <img  src="img/Gifapp.jpeg" alt="" >
+                </div>
+                <p>La aplicación de GIFs en React fue un proyecto revelador que me permitió explorar el uso de APIs y profundizar en el funcionamiento interno de React.</p>
+                <button id="abrirModal3">Expandir</button>
+            </div>
+        </div>
+
+
+
+        <dialog id="modal1">
+            <div class="modal1-contenedor">
+                <h2>JavaScript Ahorcado</h2>
+                <p>El juego de ahorcado desarrollado en JavaScript me brindó una comprensión profunda de la lógica de programación y el manejo de eventos en el navegador. Uno de los desafíos principales fue implementar una interfaz interactiva y responsiva que permitiera al usuario jugar sin problemas. Utilicé técnicas avanzadas de manipulación del DOM y control de eventos para asegurar una experiencia de usuario fluida. Este proyecto no solo mejoró mis habilidades en JavaScript, sino que también me ayudó a enamorarme de la programación.</p>
+                <a href="https://github.com/CarlosAriasLK/HangedApp.git">Repositorio HangedApp</a>
+                <button id="cerrarModal1">Cerrar modal</button>
+            </div>
+        </dialog>
+
+        <dialog id="modal2">
+            <div class="modal2-contenedor">
+                <h2>Scratch Pacman</h2>
+                <p>El proyecto de Pac-Man en Scratch me permitió explorar la lógica detrás de los juegos y cómo se puede implementar de manera visual y accesible. Los desafíos incluyeron la creación de un sistema de colisiones preciso y la programación de la IA de los fantasmas. Utilicé bloques de código para diseñar los movimientos del jugador y los enemigos, y para gestionar los puntos y el tiempo de juego. Este proyecto me ayudó a fortalecer mi lógica algorítmica y mi capacidad para diseñar mecánicas de juego efectivas.</p>
+                <button id="cerrarModal2">Cerrar modal</button>
+            </div>
+        </dialog>
+
+        <dialog id="modal3">
+            <div class="modal3-contenedor">
+                <h2>React GifApp</h2>
+                <p>En este proyecto, desarrollé una aplicación para buscar y mostrar GIFs utilizando la API de Giphy. Uno de los principales desafíos fue integrar la API de manera efectiva y gestionar el estado de la aplicación con React. Implementé componentes funcionales y utilicé hooks para manejar la lógica y el estado de la aplicación. La experiencia de trabajar con React y APIs externas me permitió comprender mejor el ciclo de vida de los componentes y mejorar mis habilidades en el desarrollo de aplicaciones web modernas.</p>
+                <a href="https://github.com/CarlosAriasLK/GifApp.git">Repositorio GifApp</a>
+                <button id="cerrarModal3">Cerrar modal</button>
+            </div>
+        </dialog>
+
+    </section>
+
+    <footer>
+        <div class="contenedor-footer">
+            <div>
+                <ul class="footer-navegacion">
+                    <li><a href="PaginaInicio.html">Sobre mi</a></li>
+                    <li><a href="Habilidades.html">Habilidades</a></li>
+                    <li><a href="Proyectos.html">Proyectos</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-redes">
+                <a href="https://www.instagram.com/carlitos_arias15/"><img src="img/instagram.png" alt="red social instagram" width="45px"></a>
+                <a href=""><img src="img/linkedin.png" alt="red social linkedin" width="45px"></a>
+                <a href="https://github.com/CarlosAriasLK"><img src="img/github.png" alt="red social github" width="48px"></a>
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy; Carlos Arias. Todos los Derechos Reservados</p>
+        </div>
+    </footer>
+    <script src="js/Proyecto.js"></script>
+</body>
+</html>
